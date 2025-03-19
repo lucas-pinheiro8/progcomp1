@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif; /* fonte */
+    display: flex; /* usa o FlexBox para exibir o conteúdo */
+    justify-content: center; /* centraliza na horizontal */
+    height: 100vh; /* altura da página é todo o conteúdo dela */
+    align-items: center; /* centraliza na vertical */
+    background-color: rgb(170, 0, 255);
+}
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 20px; /* espaçamento interno */
+    border-radius: 10px;
+    box-shadow: 4px 8px;
+    text-align: center;
+}
+
+h2{
+    padding: 5px;
+}
+
+button{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+.imagem{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
