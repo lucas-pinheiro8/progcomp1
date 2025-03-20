@@ -61,3 +61,27 @@ table tr td{     /*todos os td que tao dentro do tr que tao dentro do table sofr
 table{
     margin: 0 auto;
 }
+.laranja{
+    background-color: orange;
+    color: white;
+}
+.azul{
+    background-color: darkblue;
+    color: #f4f4f4;
+}
+.preta{
+    background-color: black;
+    color: #f4f4f4;
+}
+.roxa{
+    background-color: purple;
+    color: #f4f4f4;
+}
+.verde{
+    background-color: green;
+    color: #f4f4f4;
+}
+.vermelha{
+    background-color: rgb(255, 0, 0);
+    color: #f4f4f4;
+}
