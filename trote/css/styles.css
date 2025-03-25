@@ -85,3 +85,30 @@ table{
     background-color: rgb(255, 0, 0);
     color: #f4f4f4;
 }
+.cinza{
+    background-color: lightgray;
+    color: black;
+}
+.white{
+    background-color: #f4f4f4;
+    color: black;
+}
+.metaroxa{
+    background-color: #f4f4f4;
+    color: black;
+}
+.CA{
+    text-align: center;
+}
+.bluebox{
+    background-color: lightblue;
+    width: 800px;
+    
+}
+.beigebox{
+    background-color: beige;
+    width: 800px;
+}
+.last{
+    text-align: center;
+}
