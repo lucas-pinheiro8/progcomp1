@@ -4,6 +4,8 @@ function calcular(){
 
     let mascote, homenagem, leite, kit, suplemento, soma, equipe
     
+    
+    
     //recupera o valor do  mascote digitado pelo usuário
     mascote = Number(document.getElementById("mascote").value)
     
@@ -48,6 +50,8 @@ function calcular(){
     //template string usa-se a crase
     document.getElementById("soma").innerHTML = `A soma é ${soma}`
 
+    
+    
 
 
 

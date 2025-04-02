@@ -7,7 +7,7 @@ body {
 }
 header {
     background-color: #ffb401;
-    color: rgb(14, 14, 14);
+    color: white;
     /* 15px (espaçamento interno acima e abaixo) e 0px (direita e esquerda)*/
     padding: 15px 0px;
     font-size: 24px; 
@@ -24,7 +24,7 @@ nav {
     gap: 20px; /* distância entre os itens do menu*/
 }
 nav a { /* configura os links do menu */
-    color: rgb(21, 20, 20);
+    color: white;
     text-decoration: none; /* não decora os links */
     padding: 10px 30px; /* (10px acima e abaixo) (15px é esquerda e direita)*/
     font-size: 18px;
@@ -144,5 +144,50 @@ table{
 }
 .h3{
     text-align: center;
+}
+.calculadora{
+    background: #D6EAF8;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+}
+.label{
+    display: block;
+    margin-bottom: 8px;
+    color: #666666;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+select, input {
+    width: 30%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    width: 100%;
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background: #0056b3;
+}
+input[type="number"],
+select {
+    width: 30%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #000000;
+    border-radius: 5px;
 }
 
